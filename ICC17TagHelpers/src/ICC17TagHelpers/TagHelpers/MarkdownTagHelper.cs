@@ -13,7 +13,7 @@ namespace ICC17TagHelpers.TagHelpers
         {
             var childContent = await output.GetChildContentAsync();
             string rawContent = childContent.GetContent();
-            var markdown = Markdown.ToHtml(rawContent)
+            var markdown = Markdown.ToHtml(rawContent);
             output.Content.SetHtmlContent(markdown);
         }
     }
