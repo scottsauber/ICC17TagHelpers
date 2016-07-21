@@ -1,0 +1,14 @@
+﻿@model HtmlHelpersTagHelpersShowdownViewModel
+
+<h2>HTML Helpers vs Tag Helpers Showdown</h2><br />
+
+<h4 class="text-muted">Classes</h4>
+
+<label class="control-label" asp-for="Name"></label>
+@Html.LabelFor(model => model.Name, new { @class="control-label"})
+
+
+<h4 class="text-muted">Data- Attributes</h4>
+
+<input class="form-control" data-bind="visible: needsToBeVisible" asp-for="Name"/>
+@Html.TextBoxFor(model => model.Name, new { @class="form-control", data_bind = "visible: needsToBeVisible" })
