@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{974DA37A-E8F6-48E0-AD21-3467019A79C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98CB386B-7072-4454-8935-86F5BE8DA198}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ICC17TagHelpers", "src\ICC17TagHelpers\ICC17TagHelpers.xproj", "{DEECBA9C-3F20-44F8-8F79-3EF3D86613ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEECBA9C-3F20-44F8-8F79-3EF3D86613ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEECBA9C-3F20-44F8-8F79-3EF3D86613ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEECBA9C-3F20-44F8-8F79-3EF3D86613ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEECBA9C-3F20-44F8-8F79-3EF3D86613ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEECBA9C-3F20-44F8-8F79-3EF3D86613ED} = {974DA37A-E8F6-48E0-AD21-3467019A79C0}
+	EndGlobalSection
+EndGlobal
