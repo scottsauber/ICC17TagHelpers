@@ -8,16 +8,9 @@ namespace ICC17TagHelpers.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+        public IActionResult Index() => View();
         public IActionResult HtmlHelpersTagHelpersShowdown() => View();
-        
-        public IActionResult Error()
-        {
-            return View();
-        }
+        public IActionResult BootstrapTagHelperSamples() => View();
+        public IActionResult Error() => View();
     }
 }

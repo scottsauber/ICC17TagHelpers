@@ -1,0 +1,42 @@
+﻿@* Shout to David Paquette and Rick Strahl for making this Bootstrap Tag Helpers project:
+    https://github.com/dpaquette/TagHelperSamples *@
+<br />
+<h4 class="text-muted">Bootstrap Alerts</h4>
+<br />
+<alert message="What have you done!?!" icon="danger" dismissible="true"></alert>
+
+<div class="alert alert-danger alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    What have you done!?!
+</div>
+
+<h4 class="text-muted">Modals</h4>
+
+<button type="button" class="btn btn-primary btn-lg" bs-toggle-modal="tagHelperModal">
+    Launch modal
+</button>
+<modal id="tagHelperModal" title="Modal Title">
+    <modal-body>
+        <p>Something happened.</p>
+    </modal-body>
+</modal>
+
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#pureHtmlModal">
+    Launch modal
+</button>
+
+<div class="modal fade" id="pureHtmlModal" tabindex="-1" role="dialog" aria-labelledby="pureHtmlModal-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="pureHtmlModal-label">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>Something happened.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
